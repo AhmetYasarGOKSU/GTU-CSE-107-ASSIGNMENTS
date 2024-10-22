@@ -1,0 +1,55 @@
+ahmet-yasar@ahmet:~$ cd Desktop/Homeworks/
+ahmet-yasar@ahmet:~/Desktop/Homeworks$ cd CSE107/
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107$ mkdir First\ Homework
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107$ touch First\ Homework/output.txt
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107$ script First\ Homework/output.txt 
+Script started, output log file is 'First Homework/output.txt'.
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107$ cd First\ Homework
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework$ mkdir animals
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework$ cd animals/
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ mkdir clowfish red_panda snow_leopard
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ cd clowfish/
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ mkdir maroon_clownfish ocellaris_clownfish
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ touch ocellaris_clownfish/maroon_clownfish.txt | echo "Premnas biaculeatus, commonly known as spine-cheeked anemonefish or the maroon clownfish, is a species of anemonefish found in the Indo-Pacific from western Indonesia to Taiwan and the great Barrier Reef.They can grow up to be about 17ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ touch ocellaris_clownfish/maroon_clownfish.txt | echo -e "Premnas biaculeatus, commonly known as spine-cheahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ touch ocellaris_clownfish/maroon_clownfish.txt | echo -e "Premnas biaculeatus, commonly known as spine-cheeked anemonefish\n Or the maroon clownfish, is a species of anemonefish found in the Indo-Pacific from western Indonesia to Taiwan and the great Barrier Reef.\nThey can grow up to be about 17 cm.\n Like all anemonefishes it forms a symbiotic mutualism with sea anemones and is unaffected by the stinging tentacles of the host anemone.\n It is a sequential hermaphrodite with a strict size-based dominance hierarchy." > ocellaris_clownfish/maroon_clownfish.txtahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ touch maroon_clownfish/ocellaris_clownfish.txt | echo -e "The ocellaris clownfish also known as the false percula clownfish or common clownfish, is a marine fish belonging to the family Pomacantridae which includes clownfishes and damselfishes\n.Amphiprion ocellaris are found in different color, depending on where they are located.\nFor example, black amphiprion ocellaris with white bands can be found near northern Australia, Southeast Asia, and Japan.\nOrange or red-brown AMphiprion ocellaris also exist with three similar white bands on the body and head.\nAmphiprion ocellaris can be distunguished from other Amphiprion species based on the number of pectoral rays and dorsal spines." > maroon_clownfish/ocellaris_clownfish.txt 
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ cd ..
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ touch clowfish/clownfish.txt | echo "Anyone with kids and a DVD Player probably thinks they know all there is to know about the clownfish, also called the clown anemonefish." > clowfish/clownfish.txt | echo "True anemonefish, Amphiprion percula, are nearly identical, but have subtle differences in shape and live in different habitats." > clowfish/clownfish.txt 
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ rm clowfish/
+clownfish.txt        maroon_clownfish/    ocellaris_clownfish/
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ rm clowfish/clownfish.txt 
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ touch clowfish/clownfish.txt | echo "Anyone with kids and a DVD Player probably thinks they know all there is to know about the clownfish, also called the clown anemonefish." > clowfish/clownfish.txt | echo "True anemonefish, Amphiprion percula, are nearly identical, but have subtle differences in shape and live in different habitats." >> clowfish/clownfish.txt 
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ touch red_panda/red_panda.txt | echo -e "Red pandas have shot to viral fame for their adorable looks\n, But there is a lot more to these elusive animals than their kitten-like faces and striking reddish-brown coats" > red_panda/red_panda.txt 
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ touch snow_leopard/snow_leopard.txt | echo -e "These spotted leopards live in the mountains across a vas range of Asia.\nThey are insulated by thick hair--in shades of gray or creamy yellow and covered with grayish black spots--and their wide,fur-covered feet act as natural snowshoes.\nSnow leopards have powerful legs and are tremendous jumpers, able to leap as far as 50 feet.\nThese big cats use their long tails for balance and as blankets to cover sensitive body parts againts the severe mountain chill.\nThey are shy and reclusive, and rarely seen in the wild." > snow_leopard/snow_leopard.txt
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ move clowfish/maroon_clownfish/ocellaris_clownfish.txt clowfish/ocellaris_clownfish/
+Command 'move' not found, did you mean:
+  command 'more' from deb util-linux (2.39.3-9ubuntu6.1)
+  command 'love' from deb love (11.4-1)
+  command 'jove' from deb jove (4.17.5.3-1)
+  command 'lmove' from deb suck (4.3.4-1build1)
+  command 'mmove' from deb mtools (4.0.43-1)
+Try: sudo apt install <deb name>
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ mv clowfish/maroon_clownfish/ocellaris_clownfish.txt clowfish/ocellaris_clownfish/
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ mv clowfish/ocellaris_clownfish/maroon_clownfish.txt clowfish/maroon_clownfish/
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals$ cd clowfish/
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ -ls -l -a
+Command '-ls' not found, did you mean:
+  command 'jls' from deb sleuthkit (4.12.1+dfsg-1)
+  command 'ils' from deb sleuthkit (4.12.1+dfsg-1)
+  command 'i-ls' from deb integrit (4.1-4)
+  command 'als' from deb atool (0.39.0-13)
+  command 'rls' from deb rustup (1.26.0-3)
+  command 'hls' from deb hfsutils (3.2.6-15build2)
+  command 'fls' from deb sleuthkit (4.12.1+dfsg-1)
+  command 'ols' from deb speech-tools (1:2.5.0-13)
+  command 'ls' from deb coreutils (9.4-2ubuntu2)
+  command 'bls' from deb bacula-sd (9.6.7-7)
+Try: sudo apt install <deb name>
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ ls -l -a
+total 20
+drwxrwxr-x 4 ahmet-yasar ahmet-yasar 4096 Oct  3 14:23 .
+drwxrwxr-x 5 ahmet-yasar ahmet-yasar 4096 Oct  3 13:55 ..
+-rw-rw-r-- 1 ahmet-yasar ahmet-yasar  266 Oct  3 14:23 clownfish.txt
+drwxrwxr-x 2 ahmet-yasar ahmet-yasar 4096 Oct  3 14:31 maroon_clownfish
+drwxrwxr-x 2 ahmet-yasar ahmet-yasar 4096 Oct  3 14:31 ocellaris_clownfish
+ahmet-yasar@ahmet:~/Desktop/Homeworks/CSE107/First Homework/animals/clowfish$ ls
+clownfish.txt  maroon_clownfish  ocellaris_clownfish
+s

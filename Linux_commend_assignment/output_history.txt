@@ -1,0 +1,28 @@
+  128  script
+  129  cd First\ Homework
+  130  mkdir animals
+  131  cd animals/
+  132  mkdir clowfish red_panda snow_leopard
+  133  cd clowfish/
+  134  mkdir maroon_clownfish ocellaris_clownfish
+  135  touch ocellaris_clownfish/maroon_clownfish.txt | echo "Premnas biaculeatus, commonly known as spine-cheeked anemonefish or the maroon clownfish, is a species of anemonefish found in the Indo-Pacific from western Indonesia to Taiwan and the great Barrier Reef.They can grow up to be about 17 cm. Like all anemonefishes it forms a symbiotic mutualism with sea anemones and is unaffected by the stinging tentacles of the host anemone." > ocellaris_clownfish/maroon_clownfish.txt
+  136  rm ocellaris_clownfish/maroon_clownfish.txt 
+  137  touch ocellaris_clownfish/maroon_clownfish.txt | echo -e "Premnas biaculeatus, commonly known as spine-cheeked anemonefish\n Or the maroon clownfish, is a species of anemonefish found in the Indo-Pacific from western Indonesia to Taiwan and the great Barrier Reef.\nThey can grow up to be about 17 cm.\n Like all anemonefishes it forms a symbiotic mutualism with sea anemones and is unaffected by the stinging tentacles of the host anemone.\n It is a sequential hermaphrodite with a strict size-based dominance hierarchy." > ocellaris_clownfish/maroon_clownfish.txt
+  138  touch maroon_clownfish/ocellaris_clownfish.txt | echo -e "The ocellaris clownfish also known as the false percula clownfish or common clownfish, is a marine fish belonging to the family Pomacantridae which includes clownfishes and damselfishes\n.Amphiprion ocellaris are found in different color, depending on where they are located.\nFor example, black amphiprion ocellaris with white bands can be found near northern Australia, Southeast Asia, and Japan.\nOrange or red-brown AMphiprion ocellaris also exist with three similar white bands on the body and head.\nAmphiprion ocellaris can be distunguished from other Amphiprion species based on the number of pectoral rays and dorsal spines." > maroon_clownfish/ocellaris_clownfish.txt 
+  139  cd ..
+  140  touch clowfish/clownfish.txt | echo "Anyone with kids and a DVD Player probably thinks they know all there is to know about the clownfish, also called the clown anemonefish." > clowfish/clownfish.txt | echo "True anemonefish, Amphiprion percula, are nearly identical, but have subtle differences in shape and live in different habitats." > clowfish/clownfish.txt 
+  141  rm clowfish/clownfish.txt 
+  142  touch clowfish/clownfish.txt | echo "Anyone with kids and a DVD Player probably thinks they know all there is to know about the clownfish, also called the clown anemonefish." > clowfish/clownfish.txt | echo "True anemonefish, Amphiprion percula, are nearly identical, but have subtle differences in shape and live in different habitats." >> clowfish/clownfish.txt 
+  143  touch red_panda/red_panda.txt | echo -e "Red pandas have shot to viral fame for their adorable looks\n, But there is a lot more to these elusive animals than their kitten-like faces and striking reddish-brown coats" > red_panda/red_panda.txt 
+  144  touch snow_leopard/snow_leopard.txt | echo -e "These spotted leopards live in the mountains across a vas range of Asia.\nThey are insulated by thick hair--in shades of gray or creamy yellow and covered with grayish black spots--and their wide,fur-covered feet act as natural snowshoes.\nSnow leopards have powerful legs and are tremendous jumpers, able to leap as far as 50 feet.\nThese big cats use their long tails for balance and as blankets to cover sensitive body parts againts the severe mountain chill.\nThey are shy and reclusive, and rarely seen in the wild." > snow_leopard/snow_leopard.txt
+  145  move clowfish/maroon_clownfish/ocellaris_clownfish.txt clowfish/ocellaris_clownfish/
+  146  mv clowfish/maroon_clownfish/ocellaris_clownfish.txt clowfish/ocellaris_clownfish/
+  147  mv clowfish/ocellaris_clownfish/maroon_clownfish.txt clowfish/maroon_clownfish/
+  148  cd clowfish/
+  149  -ls -l -a
+  150  ls -l -a
+  151  ls
+  152  history
+  153  cd ..
+  154  history 28 
+  155  history 28 > output_history.txt
